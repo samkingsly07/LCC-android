@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "140862686280",
+    "firebase_url": "https://lccapp-90f46-default-rtdb.firebaseio.com",
+    "project_id": "lccapp-90f46",
+    "storage_bucket": "lccapp-90f46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140862686280:android:b32ea341c252084c34c47d",
+        "android_client_info": {
+          "package_name": "com.example.church"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140862686280-vm3amdcj3h4cfidjc2meltmio8jend6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeXcqltRNekB0s57IGF1qx82i29O5ETho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140862686280-vm3amdcj3h4cfidjc2meltmio8jend6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140862686280:android:8ad661fa4539d3cb34c47d",
+        "android_client_info": {
+          "package_name": "com.example.lifechristiancenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140862686280-vm3amdcj3h4cfidjc2meltmio8jend6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeXcqltRNekB0s57IGF1qx82i29O5ETho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140862686280-vm3amdcj3h4cfidjc2meltmio8jend6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140862686280:android:7a3145f350f5a3f234c47d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140862686280-vm3amdcj3h4cfidjc2meltmio8jend6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeXcqltRNekB0s57IGF1qx82i29O5ETho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140862686280-vm3amdcj3h4cfidjc2meltmio8jend6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ScrollingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/p4"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme.LifeChristianCenter.AppBarOverlay">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="303dp"
+                android:layout_height="165dp"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginVertical="160dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:outlineSpotShadowColor="@color/purple_500"
+                android:text="TextView"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="2p" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/Theme.LifeChristianCenter.PopupOverlay" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="43dp"
+                android:layout_height="44dp"
+                android:layout_gravity="right"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="220dp"
+                android:autoSizeMaxTextSize="16sp"
+                android:autoSizeMinTextSize="14sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/round"
+                android:gravity="center"
+                android:text="0"
+                android:textAlignment="gravity"
+
+                app:layout_anchor="@id/app_bar" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_scrolling" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+
+        />
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
