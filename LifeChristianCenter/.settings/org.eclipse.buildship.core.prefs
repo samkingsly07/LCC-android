@@ -1,0 +1,13 @@
+arguments=--init-script /var/folders/s3/1hq8nspn4vj5cfyq1x3tq2jc0000gn/T/init2840397137695857930.gradle --init-script /var/folders/s3/1hq8nspn4vj5cfyq1x3tq2jc0000gn/T/init5933510949045601898.gradle
+auto.sync=false
+build.scans.enabled=false
+connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
+connection.project.dir=
+eclipse.preferences.version=1
+gradle.user.home=
+java.home=/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+jvm.arguments=
+offline.mode=true
+override.workspace.settings=true
+show.console.view=true
+show.executions.view=true
